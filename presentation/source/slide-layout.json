@@ -1,0 +1,1749 @@
+{
+  "width": 13.333333,
+  "height": 7.5,
+  "slides": [
+    {
+      "background": "173F35",
+      "elements": [
+        {
+          "type": "text",
+          "text": "DECENTRALIZED ATM SYSTEM USING WEB3",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "D2E8A2",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "DecentraPay",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.1,
+          "size": 54,
+          "color": "FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "527061",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "D2E8A2",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "FFFFFF",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "From a fingerprint\nto a confirmed payment\nto a visible action.",
+          "x": 0.7,
+          "y": 2.25,
+          "w": 7.5,
+          "h": 2.35,
+          "size": 30,
+          "color": "FFFFFF",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 9.25,
+          "y": 2.15,
+          "w": 3.35,
+          "h": 3.8,
+          "fill": "285448"
+        },
+        {
+          "type": "text",
+          "text": "01  VERIFY\n\n02  APPROVE\n\n03  DISPENSE",
+          "x": 9.58,
+          "y": 2.55,
+          "w": 2.7,
+          "h": 3.1,
+          "size": 22,
+          "color": "D2E8A2",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "[Student / team]  •  [Roll number(s)]\n[College]  /  [Department]\nGuide: [Guide]  •  [Presentation date]",
+          "x": 0.7,
+          "y": 5.32,
+          "w": 8.3,
+          "h": 1.15,
+          "size": 14,
+          "color": "D2E8A2",
+          "bold": false
+        }
+      ],
+      "notes": "“Our project is a decentralized ATM prototype using Web3. A user verifies a fingerprint, approves a local test payment, and sees a simulated cash-dispensing action. The laptop is the screen, and an ESP32 connects to the physical components.”\n\nIntroduce the team and guide. State that this is a college demonstration with test funds."
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "01 / PROBLEM AND OBJECTIVE",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "One understandable workflow",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Connect a digital transaction to an observable hardware response.",
+          "x": 0.7,
+          "y": 2.02,
+          "w": 11.7,
+          "h": 0.8,
+          "size": 24,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 3.02,
+          "w": 3.8,
+          "h": 3.32,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 0.9199999999999999,
+          "y": 3.25,
+          "w": 3.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Identify",
+          "x": 0.9199999999999999,
+          "y": 3.94,
+          "w": 3.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Match an enrolled fingerprint to the demo wallet.",
+          "x": 0.9199999999999999,
+          "y": 4.74,
+          "w": 3.36,
+          "h": 1.42,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 4.77,
+          "y": 3.02,
+          "w": 3.8,
+          "h": 3.32,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 4.989999999999999,
+          "y": 3.25,
+          "w": 3.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Authorize",
+          "x": 4.989999999999999,
+          "y": 3.94,
+          "w": 3.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Let the user approve a test payment in MetaMask.",
+          "x": 4.989999999999999,
+          "y": 4.74,
+          "w": 3.36,
+          "h": 1.42,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 8.84,
+          "y": 3.02,
+          "w": 3.8,
+          "h": 3.32,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "x": 9.06,
+          "y": 3.25,
+          "w": 3.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Observe",
+          "x": 9.06,
+          "y": 3.94,
+          "w": 3.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Verify confirmation, then run a servo and LED cycle.",
+          "x": 9.06,
+          "y": 4.74,
+          "w": 3.36,
+          "h": 1.42,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        }
+      ],
+      "notes": "“We wanted to connect a wallet-signed smart-contract transaction to a visible hardware action. The learning objective is to understand identity checking, blockchain confirmation, and device control in one workflow.”\n\nDo not claim the project replaces a bank or solves every trust/security issue."
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "02 / SCOPE",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "A focused college prototype",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 2.08,
+          "w": 5.82,
+          "h": 4.35,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "box",
+          "x": 6.8,
+          "y": 2.08,
+          "w": 5.82,
+          "h": 4.35,
+          "fill": "E8EEDC"
+        },
+        {
+          "type": "text",
+          "text": "WHAT WE DEMONSTRATE",
+          "x": 0.98,
+          "y": 2.37,
+          "w": 5.2,
+          "h": 0.45,
+          "size": 16,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "One laptop + one ESP32\nOne enrolled demo wallet\nLocal Ethereum transactions\nFingerprint check + visible servo action",
+          "x": 0.98,
+          "y": 3.12,
+          "w": 5.1,
+          "h": 2.7,
+          "size": 21,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "SIMULATION BOUNDARIES",
+          "x": 7.08,
+          "y": 2.37,
+          "w": 5.1,
+          "h": 0.45,
+          "size": 16,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Test ETH and simulated rupees\nA single local blockchain node\nA trusted laptop-to-hardware bridge\nNo bank integration or real cash",
+          "x": 7.08,
+          "y": 3.12,
+          "w": 5.1,
+          "h": 2.7,
+          "size": 21,
+          "color": "173F35",
+          "bold": false
+        }
+      ],
+      "notes": "“There is one local ATM and one enrolled user. The rupee amounts are simulated, with a fixed demonstration rate. We are demonstrating a servo action, not feeding or counting real notes.”"
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "03 / ARCHITECTURE",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "The laptop connects Web3 to the device",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 2.2,
+          "w": 4.25,
+          "h": 1.45,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "Browser + MetaMask",
+          "x": 0.9299999999999999,
+          "y": 2.4000000000000004,
+          "w": 3.79,
+          "h": 0.45,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "User interface and signature",
+          "x": 0.9299999999999999,
+          "y": 3.04,
+          "w": 3.79,
+          "h": 0.42,
+          "size": 14,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 8.35,
+          "y": 2.2,
+          "w": 4.25,
+          "h": 1.45,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "Local blockchain",
+          "x": 8.58,
+          "y": 2.4000000000000004,
+          "w": 3.79,
+          "h": 0.45,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Contract payment and event",
+          "x": 8.58,
+          "y": 3.04,
+          "w": 3.79,
+          "h": 0.42,
+          "size": 14,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 4.55,
+          "w": 4.25,
+          "h": 1.45,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "Node.js bridge",
+          "x": 0.9299999999999999,
+          "y": 4.75,
+          "w": 3.79,
+          "h": 0.45,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Verify receipt; journal attempt",
+          "x": 0.9299999999999999,
+          "y": 5.39,
+          "w": 3.79,
+          "h": 0.42,
+          "size": 14,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 8.35,
+          "y": 4.55,
+          "w": 4.25,
+          "h": 1.45,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "ESP32 over USB",
+          "x": 8.58,
+          "y": 4.75,
+          "w": 3.79,
+          "h": 0.45,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Fingerprint, servo and LED",
+          "x": 8.58,
+          "y": 5.39,
+          "w": 3.79,
+          "h": 0.42,
+          "size": 14,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "x": 5.12,
+          "y": 2.87,
+          "w": 3.0,
+          "h": 0,
+          "color": "65786B",
+          "arrow": true
+        },
+        {
+          "type": "text",
+          "text": "Signed test payment",
+          "x": 5.2,
+          "y": 2.35,
+          "w": 2.9,
+          "h": 0.45,
+          "size": 13,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "x": 2.82,
+          "y": 3.72,
+          "w": 0,
+          "h": 0.65,
+          "color": "65786B",
+          "arrow": true
+        },
+        {
+          "type": "text",
+          "text": "Session + hash",
+          "x": 3.02,
+          "y": 3.92,
+          "w": 2.7,
+          "h": 0.3,
+          "size": 12,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "x": 5.12,
+          "y": 5.24,
+          "w": 3.0,
+          "h": 0,
+          "color": "65786B",
+          "arrow": true
+        },
+        {
+          "type": "text",
+          "text": "USB commands / replies",
+          "x": 5.12,
+          "y": 4.76,
+          "w": 3.0,
+          "h": 0.4,
+          "size": 13,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "line",
+          "x": 10.47,
+          "y": 3.72,
+          "w": 0,
+          "h": 0.6,
+          "color": "65786B",
+          "arrow": false
+        },
+        {
+          "type": "line",
+          "x": 4.2,
+          "y": 4.32,
+          "w": 6.27,
+          "h": 0,
+          "color": "65786B",
+          "arrow": false
+        },
+        {
+          "type": "line",
+          "x": 4.2,
+          "y": 4.32,
+          "w": 0,
+          "h": 0.18,
+          "color": "65786B",
+          "arrow": true
+        },
+        {
+          "type": "text",
+          "text": "Bridge checks the chain receipt.",
+          "x": 5.0,
+          "y": 3.77,
+          "w": 5.1,
+          "h": 0.4,
+          "size": 13,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "The contract does not inspect fingerprints or physical cash.",
+          "x": 0.75,
+          "y": 6.38,
+          "w": 11.8,
+          "h": 0.35,
+          "size": 14,
+          "color": "65786B",
+          "bold": false
+        }
+      ],
+      "notes": "Point to the browser, chain, bridge, and ESP32. “MetaMask signs the payment. The local smart contract records it. The Node bridge checks the receipt and tells the ESP32 to run the motor. The bridge is trusted; the blockchain does not directly inspect fingerprints or cash.”"
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "04 / HARDWARE TARGET",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Four components, one USB connection",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "05",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 2.15,
+          "w": 2.8,
+          "h": 3.55,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "ESP32",
+          "x": 0.8999999999999999,
+          "y": 2.5,
+          "w": 2.4,
+          "h": 0.65,
+          "size": 29,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "WROOM-32 board",
+          "x": 0.8999999999999999,
+          "y": 3.43,
+          "w": 2.4,
+          "h": 0.8,
+          "size": 17,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "USB link and peripheral control",
+          "x": 0.8999999999999999,
+          "y": 4.4,
+          "w": 2.4,
+          "h": 1.0,
+          "size": 15,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 3.74,
+          "y": 2.15,
+          "w": 2.8,
+          "h": 3.55,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "R307",
+          "x": 3.9400000000000004,
+          "y": 2.5,
+          "w": 2.4,
+          "h": 0.65,
+          "size": 29,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Fingerprint sensor",
+          "x": 3.9400000000000004,
+          "y": 3.43,
+          "w": 2.4,
+          "h": 0.8,
+          "size": 17,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Templates stay inside the sensor",
+          "x": 3.9400000000000004,
+          "y": 4.4,
+          "w": 2.4,
+          "h": 1.0,
+          "size": 15,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 6.78,
+          "y": 2.15,
+          "w": 2.8,
+          "h": 3.55,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "SG90",
+          "x": 6.98,
+          "y": 2.5,
+          "w": 2.4,
+          "h": 0.65,
+          "size": 29,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "180° positional servo",
+          "x": 6.98,
+          "y": 3.43,
+          "w": 2.4,
+          "h": 0.8,
+          "size": 17,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "A lightweight flap represents cash",
+          "x": 6.98,
+          "y": 4.4,
+          "w": 2.4,
+          "h": 1.0,
+          "size": 15,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 9.82,
+          "y": 2.15,
+          "w": 2.8,
+          "h": 3.55,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "LED",
+          "x": 10.02,
+          "y": 2.5,
+          "w": 2.4,
+          "h": 0.65,
+          "size": 29,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "With 330 Ω resistor",
+          "x": 10.02,
+          "y": 3.43,
+          "w": 2.4,
+          "h": 0.8,
+          "size": 17,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Indicates the movement interval",
+          "x": 10.02,
+          "y": 4.4,
+          "w": 2.4,
+          "h": 1.0,
+          "size": 15,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 6.0,
+          "w": 11.95,
+          "h": 0.55,
+          "fill": "E8EEDC"
+        },
+        {
+          "type": "text",
+          "text": "USB powers the ESP32. A separate rated 5 V supply powers peripherals; grounds are shared.",
+          "x": 0.93,
+          "y": 6.13,
+          "w": 11.45,
+          "h": 0.3,
+          "size": 13,
+          "color": "173F35",
+          "bold": false
+        }
+      ],
+      "notes": "Identify the ESP32, R307, SG90, and LED. Explain the USB link and separate peripheral supply. Show physical components only if they are actually assembled; otherwise describe them as the planned hardware stage."
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "05 / IMPLEMENTATION",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Small software. One smart contract.",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "06",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 2.1,
+          "w": 5.55,
+          "h": 4.45,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "LOCAL SOFTWARE",
+          "x": 0.98,
+          "y": 2.4,
+          "w": 4.95,
+          "h": 0.4,
+          "size": 16,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "HTML / CSS / JavaScript\nNode.js + Express\nethers + MetaMask\nSolidity + Hardhat\nArduino C++ + USB serial",
+          "x": 0.98,
+          "y": 3.12,
+          "w": 4.95,
+          "h": 2.8,
+          "size": 21,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 6.55,
+          "y": 2.1,
+          "w": 6.08,
+          "h": 4.45,
+          "fill": "E8EEDC"
+        },
+        {
+          "type": "text",
+          "text": "requestCash(requestId)",
+          "x": 6.85,
+          "y": 2.4,
+          "w": 5.48,
+          "h": 0.45,
+          "size": 23,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Accept a supported test ETH amount.\nReject a reused request ID.\nRecord a CashRequested event.",
+          "x": 6.85,
+          "y": 3.18,
+          "w": 5.43,
+          "h": 1.7,
+          "size": 20,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Rs 100 = 0.001 ETH\nRs 200 = 0.002 ETH\nRs 500 = 0.005 ETH",
+          "x": 6.85,
+          "y": 5.08,
+          "w": 5.43,
+          "h": 1.16,
+          "size": 17,
+          "color": "173F35",
+          "bold": false
+        }
+      ],
+      "notes": "“The application uses plain HTML/CSS/JavaScript, a small Node server, and one Solidity contract. The contract accepts three amounts, rejects repeated request IDs, and emits a payment event. There is no bank account or external price feed.”"
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "06 / WORKFLOW",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "A payment must be confirmed before movement",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "07",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 2.25,
+          "w": 2.8,
+          "h": 3.65,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "01",
+          "x": 0.9199999999999999,
+          "y": 2.48,
+          "w": 2.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Connect",
+          "x": 0.9199999999999999,
+          "y": 3.17,
+          "w": 2.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Select the enrolled demo wallet.",
+          "x": 0.9199999999999999,
+          "y": 3.9699999999999998,
+          "w": 2.36,
+          "h": 1.75,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 3.74,
+          "y": 2.25,
+          "w": 2.8,
+          "h": 3.65,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "02",
+          "x": 3.9600000000000004,
+          "y": 2.48,
+          "w": 2.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Scan",
+          "x": 3.9600000000000004,
+          "y": 3.17,
+          "w": 2.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Verify the finger for one request.",
+          "x": 3.9600000000000004,
+          "y": 3.9699999999999998,
+          "w": 2.36,
+          "h": 1.75,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 6.78,
+          "y": 2.25,
+          "w": 2.8,
+          "h": 3.65,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "03",
+          "x": 7.0,
+          "y": 2.48,
+          "w": 2.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Approve",
+          "x": 7.0,
+          "y": 3.17,
+          "w": 2.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Sign the payment in MetaMask.",
+          "x": 7.0,
+          "y": 3.9699999999999998,
+          "w": 2.36,
+          "h": 1.75,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 9.82,
+          "y": 2.25,
+          "w": 2.8,
+          "h": 3.65,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "04",
+          "x": 10.040000000000001,
+          "y": 2.48,
+          "w": 2.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Dispense",
+          "x": 10.040000000000001,
+          "y": 3.17,
+          "w": 2.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Bridge verifies; ESP32 runs one cycle.",
+          "x": 10.040000000000001,
+          "y": 3.9699999999999998,
+          "w": 2.36,
+          "h": 1.75,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Unknown finger → reject.  Cancelled approval → no dispense.  Lost USB reply → inspect; do not replay.",
+          "x": 0.8,
+          "y": 6.2,
+          "w": 11.85,
+          "h": 0.55,
+          "size": 15,
+          "color": "65786B",
+          "bold": false
+        }
+      ],
+      "notes": "Walk through the four visible steps. Explain that every new request needs a matching finger and that the wallet approves the payment separately. The servo runs only after the bridge verifies confirmation."
+    },
+    {
+      "background": "173F35",
+      "elements": [
+        {
+          "type": "text",
+          "text": "07 / SHOW THE COMPLETE FLOW",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "D2E8A2",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Live demonstration",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "FFFFFF",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "527061",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "D2E8A2",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "08",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "FFFFFF",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "1  Show the mode, wallet and balance.\n2  Select Rs 100 and verify the finger.\n3  Approve the test payment in MetaMask.\n4  Show the hash and reduced balance.\n5  Observe the real servo and LED.",
+          "x": 0.85,
+          "y": 2.12,
+          "w": 9.1,
+          "h": 3.8,
+          "size": 26,
+          "color": "FFFFFF",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 10.3,
+          "y": 2.15,
+          "w": 2.15,
+          "h": 2.05,
+          "fill": "285448"
+        },
+        {
+          "type": "text",
+          "text": "90",
+          "x": 10.58,
+          "y": 2.43,
+          "w": 1.65,
+          "h": 0.8,
+          "size": 49,
+          "color": "D2E8A2",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "SECONDS",
+          "x": 10.61,
+          "y": 3.42,
+          "w": 1.6,
+          "h": 0.35,
+          "size": 13,
+          "color": "D2E8A2",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "If using the simulator, say so clearly.\nDemonstrate an unknown finger being rejected if time allows.",
+          "x": 0.85,
+          "y": 6.0,
+          "w": 11.4,
+          "h": 0.7,
+          "size": 16,
+          "color": "D2E8A2",
+          "bold": false
+        }
+      ],
+      "notes": "Switch to the running ATM page. Confirm the mode banner aloud.\n\n1. Show the enrolled wallet and balance.\n2. Select Rs 100 and start verification.\n3. Scan the enrolled finger (or clearly describe the simulated scan).\n4. Approve in MetaMask.\n5. Show the confirmed transaction and reduced balance.\n6. Show the physical servo/LED cycle if in hardware mode.\n\nIf time allows, show an unknown finger being rejected. If hardware is not ready, call the run a software simulation. If the live demo fails, explain the displayed error and show a labelled recording only if a real recording exists."
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "08 / RESULTS",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Software evidence, with clear limits",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "09",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.7,
+          "y": 2.1,
+          "w": 3.8,
+          "h": 3.47,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "17",
+          "x": 0.9199999999999999,
+          "y": 2.33,
+          "w": 3.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Tests passed",
+          "x": 0.9199999999999999,
+          "y": 3.02,
+          "w": 3.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Contract + bridge checks",
+          "x": 0.9199999999999999,
+          "y": 3.8200000000000003,
+          "w": 3.36,
+          "h": 1.5700000000000003,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 4.77,
+          "y": 2.1,
+          "w": 3.8,
+          "h": 3.47,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "3",
+          "x": 4.989999999999999,
+          "y": 2.33,
+          "w": 3.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Demo payments",
+          "x": 4.989999999999999,
+          "y": 3.02,
+          "w": 3.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Saved simulator journal",
+          "x": 4.989999999999999,
+          "y": 3.8200000000000003,
+          "w": 3.36,
+          "h": 1.5700000000000003,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 8.84,
+          "y": 2.1,
+          "w": 3.8,
+          "h": 3.47,
+          "fill": "FFFFFF"
+        },
+        {
+          "type": "text",
+          "text": "—",
+          "x": 9.06,
+          "y": 2.33,
+          "w": 3.36,
+          "h": 0.5,
+          "size": 25,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Hardware tests",
+          "x": 9.06,
+          "y": 3.02,
+          "w": 3.36,
+          "h": 0.65,
+          "size": 21,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Pending physical assembly",
+          "x": 9.06,
+          "y": 3.8200000000000003,
+          "w": 3.36,
+          "h": 1.5700000000000003,
+          "size": 17,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Observed simulator payments: Rs 100, Rs 500 and Rs 200.\nUnknown-finger and sensor-error cases were also recorded.",
+          "x": 0.85,
+          "y": 5.83,
+          "w": 11.7,
+          "h": 0.75,
+          "size": 17,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "No claim of real cash output, physical delivery assurance, or a distributed public network.",
+          "x": 0.85,
+          "y": 6.6,
+          "w": 11.7,
+          "h": 0.25,
+          "size": 11,
+          "color": "65786B",
+          "bold": false
+        }
+      ],
+      "notes": "“The automated software checks pass, including duplicate prevention and failure handling. The saved simulator journal contains three successful payments and two failed scan cases. Physical acceptance is recorded separately.”\n\nBefore presenting, update the physical status based on actual observations. The current delivered slide correctly says that hardware testing is pending."
+    },
+    {
+      "background": "F6F7F2",
+      "elements": [
+        {
+          "type": "text",
+          "text": "09 / CONCLUSION",
+          "x": 0.65,
+          "y": 0.43,
+          "w": 11.8,
+          "h": 0.3,
+          "size": 10,
+          "color": "65786B",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "A working software demo. A clear hardware path.",
+          "x": 0.65,
+          "y": 0.98,
+          "w": 12.0,
+          "h": 1.05,
+          "size": 32,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "line",
+          "x": 0.65,
+          "y": 6.94,
+          "w": 12.0,
+          "h": 0,
+          "color": "DCE3D4",
+          "arrow": false
+        },
+        {
+          "type": "text",
+          "text": "DECENTRAPAY  /  LOCAL TEST FUNDS  /  COLLEGE PROTOTYPE",
+          "x": 0.65,
+          "y": 7.1,
+          "w": 11.3,
+          "h": 0.2,
+          "size": 8.5,
+          "color": "65786B",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "10",
+          "x": 12.05,
+          "y": 7.06,
+          "w": 0.6,
+          "h": 0.25,
+          "size": 11,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "What the project connects",
+          "x": 0.8,
+          "y": 2.2,
+          "w": 11.4,
+          "h": 0.5,
+          "size": 23,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Fingerprint authorization + wallet approval\n+ confirmed smart-contract payment + device control",
+          "x": 0.8,
+          "y": 3.0,
+          "w": 11.7,
+          "h": 1.3,
+          "size": 28,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "box",
+          "x": 0.75,
+          "y": 4.8,
+          "w": 11.9,
+          "h": 1.3,
+          "fill": "E8EEDC"
+        },
+        {
+          "type": "text",
+          "text": "FINAL ACCEPTANCE",
+          "x": 1.02,
+          "y": 5.02,
+          "w": 3.0,
+          "h": 0.35,
+          "size": 13,
+          "color": "173F35",
+          "bold": true
+        },
+        {
+          "type": "text",
+          "text": "Three observed physical withdrawals after assembly.",
+          "x": 1.02,
+          "y": 5.52,
+          "w": 11.3,
+          "h": 0.4,
+          "size": 19,
+          "color": "173F35",
+          "bold": false
+        },
+        {
+          "type": "text",
+          "text": "Questions?",
+          "x": 0.85,
+          "y": 6.38,
+          "w": 5,
+          "h": 0.4,
+          "size": 20,
+          "color": "173F35",
+          "bold": true
+        }
+      ],
+      "notes": "“This prototype connects a wallet payment with a hardware-control workflow that we can explain and demonstrate. It uses a single local blockchain and a trusted bridge; it does not dispense real cash or operate as a banking service.”\n\nInvite questions. Keep the scope small rather than promising a future production rollout."
+    }
+  ]
+}

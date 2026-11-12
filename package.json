@@ -1,0 +1,35 @@
+{
+  "name": "decentrapay-college-atm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A local Web3 ATM college demonstration with ESP32 hardware",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "compile": "hardhat compile",
+    "build": "vite build",
+    "chain": "hardhat node --hostname 127.0.0.1",
+    "setup": "node scripts/setup.js",
+    "reset": "node scripts/setup.js --reset",
+    "start": "node server/index.js",
+    "demo": "node scripts/demo.js",
+    "demo:reset": "node scripts/demo.js --reset",
+    "enroll": "node scripts/device.js enroll",
+    "hardware:check": "node scripts/device.js check",
+    "ports": "node scripts/device.js ports",
+    "test": "npm run compile && node test/atm.test.js",
+    "test:browser": "node scripts/browser-check.js"
+  },
+  "overrides": { "brace-expansion@^2.0.1": "2.1.4" },
+  "dependencies": {
+    "ethers": "6.16.0",
+    "express": "5.2.1",
+    "serialport": "12.0.0"
+  },
+  "devDependencies": {
+    "hardhat": "2.29.1",
+    "solc": "0.8.26",
+    "vite": "6.4.3",
+    "playwright": "1.63.0"
+  }
+}

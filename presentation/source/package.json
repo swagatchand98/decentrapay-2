@@ -1,0 +1,7 @@
+{
+  "name": "decentrapay-presentation-tools",
+  "private": true,
+  "scripts": { "slides": "node build_slides.cjs" },
+  "dependencies": { "pptxgenjs": "4.0.1" },
+  "overrides": { "@types/node": "22.20.2" }
+}

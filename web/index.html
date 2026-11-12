@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#163f35" />
+  <title>DecentraPay · Web3 ATM</title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="DecentraPay home"><span class="brand-mark">d<span>p</span></span><span>decentrapay<span class="brand-sub">THE WEB3 ATM LAB</span></span></a>
+    <nav><span class="network"><span class="dot"></span> Local Ethereum <span class="network-id">31337</span></span><button class="text-button" id="help">Setup guide ↗</button></nav>
+  </header>
+  <main>
+    <div class="intro"><div><div class="eyebrow">A COLLEGE PROJECT / WEB3 + HARDWARE</div><h1>A little closer to<br/><span>the future of cash.</span></h1><p>Verify your fingerprint. Approve a test payment.<br class="desktop-break"/> Watch your transaction become a physical action.</p></div><div class="intro-note"><span class="note-symbol">↗</span><p>On-chain payments.<br/>Hands-on demonstration.</p><small>LOCAL NETWORK · TEST FUNDS ONLY</small></div></div>
+    <div id="mode-banner" class="mode-banner"><span class="dot"></span><strong>Connecting to ATM…</strong></div>
+    <div class="workspace">
+      <section class="atm-card" aria-labelledby="withdraw-heading">
+        <div class="card-heading"><div><div class="eyebrow">YOUR TERMINAL</div><h2 id="withdraw-heading">Withdraw demo cash</h2></div><span class="terminal-id">ATM / 001</span></div>
+        <ol class="steps" aria-label="Withdrawal progress"><li id="step-wallet" class="current"><b>1</b>Wallet</li><li id="step-finger"><b>2</b>Fingerprint</li><li id="step-pay"><b>3</b>Payment</li><li id="step-cash"><b>4</b>Dispense</li></ol>
+        <div class="wallet-panel"><div><span class="label">CONNECTED WALLET</span><strong id="wallet-address">Your wallet goes here</strong><span id="balance" class="muted">Connect MetaMask to get started</span></div><button id="connect" class="secondary-button">Connect wallet <span>↗</span></button></div>
+        <div class="amount-label"><h3>Select an amount</h3><span>SIMULATED INR</span></div>
+        <div class="amounts" role="group" aria-label="Withdrawal amount"><button class="amount selected" data-amount="100" aria-pressed="true"><strong>₹100</strong><span>0.001 test ETH</span></button><button class="amount" data-amount="200" aria-pressed="false"><strong>₹200</strong><span>0.002 test ETH</span></button><button class="amount" data-amount="500" aria-pressed="false"><strong>₹500</strong><span>0.005 test ETH</span></button></div>
+        <div class="rate-note"><span>ⓘ</span> Fixed demo rate: ₹100 = 0.001 test ETH. Gas is additional.</div>
+        <div id="sim-controls" class="sim-controls" hidden><label for="scan-result">Simulated fingerprint</label><select id="scan-result"><option value="match">Enrolled finger · match</option><option value="unknown">Unknown finger · reject</option><option value="error">Sensor error · reject</option></select></div>
+        <button id="withdraw" class="primary-button" disabled><span id="withdraw-label">Connect wallet to continue</span><span>→</span></button>
+        <button id="retry" class="text-button retry" hidden>Check the same payment again</button>
+        <div id="feedback" class="feedback" role="status" aria-live="polite">Your fingerprint unlocks one withdrawal. Your wallet approves the payment.</div>
+      </section>
+      <aside class="hardware-card" aria-labelledby="hardware-heading">
+        <div class="card-heading"><div><div class="eyebrow">BEHIND THE TRANSACTION</div><h2 id="hardware-heading">Hardware link</h2></div><span id="hardware-pill" class="pill">CONNECTING</span></div>
+        <div class="machine" id="machine" aria-label="Illustration of the ATM hardware"><div class="machine-top"><span>DECENTRAPAY</span><i id="led"></i></div><div class="machine-screen"><span class="screen-icon">⌁</span><strong id="machine-status">READY WHEN YOU ARE</strong><span>ESP32 · FINGERPRINT · SERVO</span></div><div class="machine-bottom"><div class="fingerprint"><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M11 25c0-18 26-18 26 0M7 21C10 1 42 5 41 27M16 31v-9c0-11 16-11 16 0v10M21 39V22c0-4 6-4 6 0v18M11 30v6m5 0v7m16-6v5m5-14v9M7 27v5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></div><div class="servo-window"><div class="servo-arm"></div><span>SERVO</span></div></div><div class="machine-slot"></div></div>
+        <div class="hardware-rows"><div><span>Blockchain</span><strong id="chain-status">Checking…</strong></div><div><span id="device-label">Device</span><strong id="device-status">Checking…</strong></div><div><span>Fingerprint</span><strong id="finger-status">Awaiting scan</strong></div><div><span>Dispense cycle</span><strong id="cycle-status">Idle</strong></div></div>
+        <p class="hardware-note" id="hardware-note">The servo moves only after the bridge verifies a successful blockchain payment.</p>
+      </aside>
+    </div>
+    <section class="history-card" aria-labelledby="history-heading"><div class="card-heading"><div><div class="eyebrow">THE PAPER TRAIL, WITHOUT THE PAPER</div><h2 id="history-heading">Recent activity</h2></div><span class="history-count" id="history-count">0 transactions</span></div><div class="table-scroll"><table><thead><tr><th>TIME</th><th>DEMO CASH</th><th>PAYMENT</th><th>TRANSACTION HASH</th><th>STATUS</th></tr></thead><tbody id="history"></tbody></table></div><div id="empty-history" class="empty-history"><span>↗</span><strong>Your first withdrawal starts here.</strong><p>Confirmed payments and hardware results will appear in this log.</p></div></section>
+    <footer><span>Built to learn. Designed to demonstrate.</span><span>Local blockchain prototype · No real money or cash</span></footer>
+  </main>
+  <dialog id="setup-dialog"><div class="dialog-top"><h2>Start your demo</h2><button id="close-help" class="secondary-button" aria-label="Close setup guide">✕</button></div><ol><li>Install the MetaMask browser extension and use a separate demo wallet profile.</li><li>Add network <strong>DecentraPay Local</strong>: RPC <code>http://127.0.0.1:8545</code>, chain ID <code>31337</code>, currency <code>ETH</code>.</li><li>Import the public test account listed in <code>README.md</code>. The app expects <code id="expected-wallet"></code>.</li><li>Connect the wallet, select an amount, and start fingerprint verification. Approve the payment when MetaMask opens.</li></ol><p>Simulator mode uses a fake fingerprint and a visual servo cycle, but a real local-chain transaction. Hardware mode requires the ESP32 over USB.</p><p>After restarting the blockchain, clear this demo account’s activity in MetaMask if it reports a stale nonce. Full wiring and enrollment instructions are in <code>docs/HARDWARE.md</code>.</p></dialog>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

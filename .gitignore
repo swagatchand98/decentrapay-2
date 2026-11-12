@@ -1,0 +1,9 @@
+node_modules/
+dist/
+artifacts/
+cache/
+data/
+.env
+.DS_Store
+test-results/
+firmware/build/

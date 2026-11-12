@@ -1,0 +1,74 @@
+{
+  "captured_date": "2026-10-26",
+  "source": "data/journal.json and data/deployment.json",
+  "chain_id": 31337,
+  "contract": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "deployment_id": "ecc69ac3-12fe-4c02-bd28-242a45598799",
+  "note": "Snapshot of local simulator journal; not public-chain verification. No hardware results.",
+  "automated_tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "requests": [
+    {
+      "id": "0x9af2ef249f90213de2ddbb7c9923df992c96135c685519a41b1d5757da7cecdb",
+      "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rupees": 100,
+      "status": "completed",
+      "mode": "simulator",
+      "txHash": "0x2acbae8380447efdc15c98e3bcd01bd37820680bbe221b8f2f195e4e38edcf28",
+      "blockNumber": 2,
+      "message": "Payment confirmed; simulated dispense cycle completed.",
+      "createdAt": 1792971029077,
+      "completedAt": 1792971040876
+    },
+    {
+      "id": "0xc41f04c6340ba4cc139d131e543a48d787e16526572fd8c151b6730c6e6da81f",
+      "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rupees": 500,
+      "status": "completed",
+      "mode": "simulator",
+      "txHash": "0x56bc0a304588c2d82c5d80f9b23b0f0bcd8ccd6aa6e1d22269dc67d167a892e8",
+      "blockNumber": 3,
+      "message": "Payment confirmed; simulated dispense cycle completed.",
+      "createdAt": 1792971098549,
+      "completedAt": 1792971103609
+    },
+    {
+      "id": "0x250a5f3c7398f3b7afb85eb851552b64790294421bf8501d2a2d7cb63d0985cc",
+      "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rupees": 500,
+      "status": "failed",
+      "mode": "simulator",
+      "txHash": null,
+      "blockNumber": null,
+      "message": "Fingerprint not recognized. Try the enrolled finger.",
+      "createdAt": 1792971119376,
+      "completedAt": null
+    },
+    {
+      "id": "0x86e85d5f1547d4e4e5c94a61e091650c126a0389cc4fc7671c64c20f836c0d2b",
+      "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rupees": 500,
+      "status": "failed",
+      "mode": "simulator",
+      "txHash": null,
+      "blockNumber": null,
+      "message": "Simulated sensor communication error.",
+      "createdAt": 1792971124096,
+      "completedAt": null
+    },
+    {
+      "id": "0xa50a1a34f6171fc525377ab2a56fbd90ba3b30add9a2fec99b85586bd2d5cd7d",
+      "wallet": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+      "rupees": 200,
+      "status": "completed",
+      "mode": "simulator",
+      "txHash": "0xb1d43319dbf9aa0769b521b5bd773677b6213baebf5e039bc8757aa33976fdcc",
+      "blockNumber": 4,
+      "message": "Payment confirmed; simulated dispense cycle completed.",
+      "createdAt": 1792971128736,
+      "completedAt": 1792971133439
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+test,mode,expected_result,status,transaction_hash,observer,date,notes
+Rs 100 withdrawal,serial,Fingerprint matches and confirmed payment produces one real servo/LED cycle,NOT RUN,,,,
+Rs 200 withdrawal,serial,Fingerprint matches and confirmed payment produces one real servo/LED cycle,NOT RUN,,,,
+Rs 500 withdrawal,serial,Fingerprint matches and confirmed payment produces one real servo/LED cycle,NOT RUN,,,,
+Unknown finger,serial,Rejected before wallet payment and no servo movement,NOT RUN,,,,
+MetaMask approval rejected,serial,No dispense command after approval rejection,NOT RUN,,,,
+ESP32 disconnected before payment,serial,Device failure shown and no dispense,NOT RUN,,,,
+USB interruption after payment,serial,Ambiguous completion reported and old dispense not automatically retried,NOT RUN,,,,Use test funds; inspect hardware before another attempt
+After enclosure mounting,serial,Repeat three successful withdrawal amounts without a blocked flap,NOT RUN,,,,

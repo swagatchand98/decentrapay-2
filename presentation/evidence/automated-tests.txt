@@ -1,0 +1,104 @@
+
+> decentrapay-college-atm@1.0.0 test
+> npm run compile && node test/atm.test.js
+
+
+> decentrapay-college-atm@1.0.0 compile
+> hardhat compile
+
+Nothing to compile
+TAP version 13
+# Subtest: contract accepts each supported amount, transfers value, and emits exact event
+ok 1 - contract accepts each supported amount, transfers value, and emits exact event
+  ---
+  duration_ms: 560.629202
+  ...
+# Subtest: contract rejects invalid amounts, zero IDs, and reused IDs without changing balance
+ok 2 - contract rejects invalid amounts, zero IDs, and reused IDs without changing balance
+  ---
+  duration_ms: 41.925373
+  ...
+# Subtest: three consecutive authenticated withdrawals each dispense once and reduce the wallet balance
+ok 3 - three consecutive authenticated withdrawals each dispense once and reduce the wallet balance
+  ---
+  duration_ms: 93.738304
+  ...
+# Subtest: unrecognized fingerprint, wrong slot, wrong wallet, and invalid amount never dispense
+ok 4 - unrecognized fingerprint, wrong slot, wrong wallet, and invalid amount never dispense
+  ---
+  duration_ms: 10.22834
+  ...
+# Subtest: one session is reserved before asynchronous scanning; cancellation prevents authorization
+ok 5 - one session is reserved before asynchronous scanning; cancellation prevents authorization
+  ---
+  duration_ms: 14.112482
+  ...
+# Subtest: expired and cancelled fingerprint sessions cannot authorize a paid transaction
+ok 6 - expired and cancelled fingerprint sessions cannot authorize a paid transaction
+  ---
+  duration_ms: 19.91385
+  ...
+# Subtest: unrelated payment, wrong wallet, wrong amount, and wrong contract are rejected
+ok 7 - unrelated payment, wrong wallet, wrong amount, and wrong contract are rejected
+  ---
+  duration_ms: 69.674379
+  ...
+# Subtest: duplicate hash submissions and repeated polling do not dispense twice
+ok 8 - duplicate hash submissions and repeated polling do not dispense twice
+  ---
+  duration_ms: 26.335972
+  ...
+# Subtest: no dispense occurs until a pending payment is mined
+ok 9 - no dispense occurs until a pending payment is mined
+  ---
+  duration_ms: 32.908008
+  ...
+# Subtest: matching transaction that reverts never dispenses
+ok 10 - matching transaction that reverts never dispenses
+  ---
+  duration_ms: 28.067082
+  ...
+# Subtest: lost hardware acknowledgement is recorded once and never retried, including after restart
+ok 11 - lost hardware acknowledgement is recorded once and never retried, including after restart
+  ---
+  duration_ms: 20.72583
+  ...
+# Subtest: restart marks interrupted dispense uncertain and cancels stale fingerprint authorization
+ok 12 - restart marks interrupted dispense uncertain and cancels stale fingerprint authorization
+  ---
+  duration_ms: 0.941876
+  ...
+# Subtest: changed blockchain identity blocks hardware use
+ok 13 - changed blockchain identity blocks hardware use
+  ---
+  duration_ms: 3.354218
+  ...
+# Subtest: serial mode cannot accept simulator failure/match overrides
+ok 14 - serial mode cannot accept simulator failure/match overrides
+  ---
+  duration_ms: 1.065028
+  ...
+# Subtest: simulator is explicitly identified and rejects duplicate dispense IDs
+ok 15 - simulator is explicitly identified and rejects duplicate dispense IDs
+  ---
+  duration_ms: 1401.61617
+  ...
+# Subtest: HTTP API rejects foreign origins and exposes no direct dispense endpoint
+ok 16 - HTTP API rejects foreign origins and exposes no direct dispense endpoint
+  ---
+  duration_ms: 27.042564
+  ...
+# Subtest: process lock prevents two bridges from owning the journal
+ok 17 - process lock prevents two bridges from owning the journal
+  ---
+  duration_ms: 0.655231
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2363.58451
